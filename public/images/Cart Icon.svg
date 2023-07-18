@@ -1,0 +1,11 @@
+<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Cart Icon">
+<circle id="Background" cx="25" cy="25.5" r="25" fill="#5956E9"/>
+<g id="Icon">
+<path id="Vector" d="M23 34.5C23.5523 34.5 24 34.0523 24 33.5C24 32.9477 23.5523 32.5 23 32.5C22.4477 32.5 22 32.9477 22 33.5C22 34.0523 22.4477 34.5 23 34.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M30 34.5C30.5523 34.5 31 34.0523 31 33.5C31 32.9477 30.5523 32.5 30 32.5C29.4477 32.5 29 32.9477 29 33.5C29 34.0523 29.4477 34.5 30 34.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M15 16.5H18.0943L20.415 29.6507H32.7921" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M20.0004 26.4684L32.4754 26.556C32.5649 26.5561 32.6516 26.5251 32.7208 26.4684C32.79 26.4118 32.8374 26.3328 32.8549 26.2451L34.2474 19.283C34.2586 19.2269 34.2572 19.1689 34.2434 19.1134C34.2295 19.0578 34.2035 19.0061 34.1671 18.9618C34.1308 18.9175 34.0851 18.8819 34.0334 18.8574C33.9816 18.8329 33.9251 18.8203 33.8678 18.8203L18.7373 18.8203" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

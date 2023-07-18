@@ -1,0 +1,90 @@
+body{
+    width: 1850px;
+    height: 10000px;
+}
+
+header{
+    display: flex;
+    width: 1720px;
+    justify-content: center;
+    align-items: center;
+    gap: 303px;
+    margin: 40px 10621px 100px 100px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    width: 53px;
+    height: 26px;
+    flex-shrink: 0;
+    position: relative;
+    top: 45px;
+}
+
+.logo h1{
+    color: #2F2F2F;
+    font-size: 30px;
+    font-family: Mulish;
+    font-weight: 800;
+    position: relative;
+    top: 20px;
+}
+
+.menu{
+    padding: 40px;
+    gap:303px;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #2F2F2F;
+    font-size: 20px;
+    font-family: mulish;
+    font-weight: 600;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+button{
+    display: flex;
+    padding: 20px 42px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 62px;
+    border: 1px solid #E0E0E0;
+    color: #2F2F2F;
+   
+    
+}
+
+div button{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    gap: 303px;
+}
+
+div .logo-carrito{
+    position: relative;
+    right: 50px;
+    top: 25px;
+    gap: 303px;
+}

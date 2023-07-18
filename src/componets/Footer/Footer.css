@@ -1,0 +1,272 @@
+footer{
+    position: relative;
+    top: 2250px;
+    height: 1000px;
+}
+
+footer .barra-footer{
+     width: 1394.842px;
+    height: 1px;
+    background: #DCDCDC;
+    position: relative;
+    left: 240px;
+}
+
+
+footer .barra-footer1{
+    width: 1394.842px;
+   height: 1px;
+   background: #DCDCDC;
+   position: relative;
+   top: 60px;
+   left: 240px;
+
+}
+
+
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img{
+    width: 40px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+    right: 410px;
+    top: 80px;
+}
+
+.logo-footer h1{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    top: 58px;
+    right: 400px;
+}
+
+.logo-footer h5{
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145.5%; /* 29.1px */
+    display: flex;
+    padding: 25px 38px 26px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+    width: 250px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left:450px;
+}
+
+.column-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 1050px;
+    height: 1050px;
+}
+
+.column-footer .list1{
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.column-footer .list1 h2{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.column-footer .list1 li{
+    color: #808080;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 198.5%; 
+    list-style: none;
+
+}
+
+.column-footer .list2{
+    color: #808080;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 198.5%;
+    list-style: none;
+    position: relative;
+    top: 220px;
+    right: 50px;
+}
+
+.column-footer .list3{
+    position: relative;
+    bottom: 210px;
+    left: 700px;
+}
+
+.column-footer .list3 h3{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.column-footer .list3 li{
+    color: #808080;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 198.5%; 
+    list-style: none;
+}
+
+
+footer .barra-footer2{
+    width: 1px;
+    height: 374px;
+    background: #DCDCDC;
+   position: relative;
+   left: 200px;
+   bottom: 330px;
+}
+
+footer .container-popular{
+    width: 612px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #2F2F2F;
+    position: relative;
+    left: 500px;
+    bottom: 230px;
+}
+
+.container-popular img{
+    width: 140px;
+    height: 65px;
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.container-popular h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 80px;
+    left: 55px;
+}
+
+.container-popular h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: relative;
+    bottom: 20px;
+    left: 160px;
+}
+
+.container-popular h5{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #424242;
+    color: #FFF;
+    font-family: Font Awesome 6 Free;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.5%;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+
+.container-popular .barra-footer3{
+    width: 1px;
+    height: 274px;
+    background: #646464;
+    position: relative;
+    left: 290px;
+    bottom: 350px;
+}
+
+.container-popular .list4{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 193.5%; 
+    list-style: none;
+    position: relative;
+    left: 300px;
+    bottom: 600px;
+
+}
+
+footer .barra-footer5{
+    width: 1400px;
+    height: 1px;
+    background: #DCDCDC;
+    position: relative;
+    right: 710px;
+    bottom: 400px;
+}
+
+.container-popular p{
+     color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 198.5%;
+    position: relative;
+    bottom: 220px;
+    right: 720px;
+}
+
+
+footer .list4 img{
+    position: relative;
+    top: 450px;
+    left: 100px;
+
+}
