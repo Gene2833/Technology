@@ -15,7 +15,7 @@ const Navbar = () =>{
                         <li><Link style={{textDecoration: "none", color: "black"}}> feactures</Link></li>
                        <li><Link style={{textDecoration: "none", color: "black"}}> Resources</Link></li>
                        <li><Link style={{textDecoration: "none", color: "black"}}>Pricing</Link></li>
-                       <li> <Link style={{textDecoration: "none", color: "black"}}>Blog</Link></li>
+                       <li> <Link to={`/Blog`} style={{textDecoration: "none", color: "black"}}>Blog</Link></li>
                 </ul>
                 </nav>    
             <div>

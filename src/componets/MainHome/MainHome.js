@@ -1,5 +1,7 @@
-import "./MainHome.css"
 import ContainerHome  from "../ContainerHome/ContainerHome"
+import "./MainHome.css"
+
+
 const MainHome = () =>{
     return(
         <>
@@ -257,7 +259,7 @@ const MainHome = () =>{
             </div>
 
           
-          <ContainerHome/>
+            <ContainerHome/>
           
           </div>
               
