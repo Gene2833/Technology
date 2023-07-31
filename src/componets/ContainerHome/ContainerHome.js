@@ -82,6 +82,7 @@ const ContainerHome = () =>{
                     <h5>See More News</h5>
                 
                 <div className="column-articulos">
+                    
                     <div className="column-articulo">
                           <img src="./images/articulo3.jpeg" alt="img"/>
                                 <h4 className="boton1">Analyze </h4>
