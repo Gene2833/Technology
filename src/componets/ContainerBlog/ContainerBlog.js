@@ -105,7 +105,45 @@ const ContainerBlog = () =>{
                     <li>⚪ No credit card required</li>
                     <li>⚪ Cancel anytime</li>
                     </ul>
+
+                    <div className="contenedor-natural">
+                    <img className="natural" src="./images/fotoPrueba.png"  alt="igmg"/>
+                    <h2>Natural Beautyness</h2>
+                    <img className="corazon" src="./images/Pattern.svg" alt="img"/>
+                    <div className="barrita-natural"></div>
+                    </div>
+
+                    <div className="contenedor-post">
+                            <div className="contenedor-post1">
+                            <img className="Star" src="./images/Star 9.svg" alt="img"/>
+                            <h2 className="titulo-post">Post Method</h2>
+                            <img className="circulo-blanco" src="./images/Ellipse 82.svg" alt="img"/>
+                            <h4 className="titulo-auto">Auto Post</h4>
+                            <img className="circulo-blanco1" src="./images/Ellipse 82.svg" alt="img"/>
+                            <img className="circulo-morado" src="./images/Ellipse 84.svg" alt="img"/>
+                            <h4 className="Remainder">Post Remainder</h4>
+
+                            <div className="contenedor-calendario">
+                                <img src="./images/Group 8.svg" alt="img"/>
+                                <h2>When to Post</h2>
+                            </div>
+
+                            <div className="contenedor-mar">
+                                <p>Mar 24, 12:30 Am</p>
+                                <img className="circulo1" src="./images/Ellipse 81.svg" alt="img"/>
+                                <img className="check" src="./images/check.svg"  alt="vector"/>
+                            </div>
+
+                            <div className="contenedor-mar1">
+                            <h5>Mar 24, 12:30 Am</h5>
+                            </div>
+                            </div>
+
+                    </div>
+
                  </div>
+
+                 
         </>
     )
 }

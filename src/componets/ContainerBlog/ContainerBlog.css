@@ -1,67 +1,67 @@
+/* Estilos para la sección del blog */
+
 body{
-    width: 1850px;
-    height: 3976px;
+  height: 3000px;
 }
-.Contenedor-blog img{
+.Contenedor-blog img {
     width: 1600px;
     height: 500px;
     margin-left: 170px;
     margin-top: 130px;
     border-radius: 50px;
-}
-
-.Contenedor-blog h1{
-     color: #FFF;
+  }
+  
+  .Contenedor-blog h1 {
+    color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 60px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 110%; /* 66px */
+    line-height: 110%;
     position: relative;
     bottom: 470px;
     left: 40px;
-}
-
-.Contenedor-blog p{
-     color: #ffffff;
-    text-align: center; 
+  }
+  
+  .Contenedor-blog p {
+    color: #ffffff;
+    text-align: center;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 145.5%; /* 29.1px */
+    line-height: 145.5%;
     position: relative;
     bottom: 450px;
     margin-left: 110px;
-}
-
-.Container-Column{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr  ; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ; 
+  }
+  
+  /* Estilos para el contenedor de columnas */
+  .Container-Column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     width: 1050px;
     height: 1050px;
     margin-left: 230px;
     margin-top: 150px;
-}
-
-.Column1{
+  }
+  
+  .Column1 {
     margin: 15px;
-}
-
-.Column1 img{
+  }
+  
+  .Column1 img {
     width: 434px;
     height: 370px;
-   border-radius: 20px;
-}
-
-
-.Column1 .boton1{
+    border-radius: 20px;
+  }
+  
+  /* Estilos para los botones */
+  .Column1 .boton1,
+  .Column1 .boton2 {
     color: #2F2F2F;
     font-family: Mulish;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
     display: flex;
@@ -73,140 +73,95 @@ body{
     background: #F6F6F6;
     box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.25);
     width: 150px;
+  }
+  
+  .Column1 .boton1 {
     position: relative;
     bottom: 100px;
     margin-left: 20px;
-}
-
-.Column1 .boton2{
-    color: #2F2F2F;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    display: flex;
-    padding: 14px 35px 15px 35px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 24px;
-    background: #F6F6F6;
-    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.25);
-    width: 150px;
-    width: 150px;
+  }
+  
+  .Column1 .boton2 {
     position: relative;
     bottom: 180px;
     margin-left: 180px;
-}
-
-.Column1 .parrafo{
+  }
+  
+  /* Estilos para los párrafos y encabezados */
+  .Column1 .parrafo,
+  .Column1 .parrafo1,
+  .Column1 h2,
+  .Column1 p,
+  .Column1 h6 {
     color: #808080;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 30px */
-    text-transform: capitalize;
+    line-height: 150%;
+  }
+  
+  .Column1 .parrafo {
     position: relative;
     bottom: 150px;
-}
-
-.Column1 .parrafo1{
-    color: #808080;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 30px */
-    text-transform: capitalize;
+  }
+  
+  .Column1 .parrafo1 {
     position: relative;
     left: 290px;
     bottom: 200px;
-}
-
-
-
-.Column1 .barrita1{
+  }
+  
+  .Column1 .barrita1 {
     width: 434px;
     height: 1px;
     background: #DCDCDC;
     position: relative;
     bottom: 150px;
-}
-
-.Column1 h2{
-    color: #2F2F2F;
-    font-family: Mulish;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 36px */
+  }
+  
+  .Column1 h2,
+  .Column1 p,
+  .Column1 h6 {
     position: relative;
     bottom: 150px;
-}
-
-.Column1 p{
-    color: #808080;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150.5%; /* 30.1px */
-    position: relative;
-    bottom: 150px;
-}
-
-.Column1 h6{
-    color: #2F2F2F;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 145.5%; /* 29.1px */
-    position: relative;
-    bottom: 150px;
-}
-
-
-.contenedor-color img{
-    width: 1450px; 
-    height: 600px; 
+  }
+  
+  /* Estilos para la sección de contenedor de color */
+  .contenedor-color img {
+    width: 1450px;
+    height: 600px;
     position: relative;
     top: 1200px;
     left: 200px;
     border-radius: 50px;
-}
-
-.contenedor-color1{
+  }
+  
+  .contenedor-color1 {
     position: relative;
     top: 720px;
     margin-left: 300px;
-}
-
-.contenedor-color1 h1{
+  }
+  
+  .contenedor-color1 h1 {
     color: #FFF;
     font-family: Mulish;
     font-size: 50px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 110%; /* 55px */
-} 
-
-.contenedor-color1 p{
-    color: #FFF;    
+    line-height: 110%;
+  }
+  
+  .contenedor-color1 p {
+    color: #FFF;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 150.5%; /* 30.1px */ 
-}
-
-.contenedor-color1 h3{
+    line-height: 150.5%;
+  }
+  
+  .contenedor-color1 h3 {
     color: #2F2F2F;
     font-family: Mulish;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     display: inline-flex;
     padding: 27px 330px 27px 29px;
@@ -215,16 +170,15 @@ body{
     gap: 10px;
     border-radius: 50px;
     background: #FFF;
-}
-
-.contenedor-color1 h6{
+  }
+  
+  .contenedor-color1 h6 {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 145.5%; /* 29.1px */
+    line-height: 145.5%;
     display: inline-flex;
     padding: 19px 45px 20px 45px;
     align-items: flex-start;
@@ -233,19 +187,256 @@ body{
     background: #2F2F2F;
     position: relative;
     right: 150px;
-}
-
-.contenedor-color1 ul{
+  }
+  
+  .contenedor-color1 ul {
     display: flex;
-}
-
-.contenedor-color1 ul li{
+  }
+  
+  .contenedor-color1 ul li {
     list-style: none;
     color: #FFF;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 150.5%; /* 30.1px */
+    line-height: 150.5%;
     padding: 15px;
+  }
+  
+  /*Estilos para el contenedor natural*/
+
+.contenedor-natural{
+    width: 267px;
+  height: 309px;  
+  transform: rotate(-15.564deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #F8F8F8;
+  box-shadow: 0px 16px 26px 0px rgba(159, 159, 159, 0.25);
+  position: relative;
+  bottom: 610px;
+  left: 750px;
+  }
+
+
+.contenedor-natural .natural{
+  width: 220px;
+  height:220px;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.contenedor-natural h2{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.contenedor-natural .corazon{
+  width: 13px;
+  height: 11px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 18px;
+  left: 15px;
+}
+
+.contenedor-natural .barrita-natural{
+  width: 71px;
+  height: 5px;
+  flex-shrink: 0; 
+  border-radius: 30px;
+  background: #E3E3E3;
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+}
+
+  /*Estilos para el contenedor post*/
+
+.contenedor-post{
+  width: 271px;
+  height: 343px;
+  transform: rotate(-15.564deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 16px 26px 0px rgba(159, 159, 159, 0.25);
+}
+
+.contenedor-post1{
+  width: 235px;
+  height: 306px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #DCDCDC;
+  background: #FFF;
+  position: relative;
+  top: 18px;
+  margin-left: 15px;
+}
+
+.contenedor-post .Star{
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+
+
+.contenedor-post1 .titulo-post{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  margin-left: 40px;
+}
+
+.contenedor-post1 .circulo-blanco{
+  width: 15px;
+  height: 15px;
+  transform: rotate(-15.564deg);
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.contenedor-post1 .titulo-auto{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  position: relative;
+  bottom: 35px;
+  margin-left: 40px;
+}
+
+.contenedor-post1 .circulo-blanco1{
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 40px;
+  margin-left: 15px;
+}
+
+.contenedor-post1 .circulo-morado{
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 43px;
+  right: 12px;
+}
+
+.contenedor-post1 .Remainder{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  position: relative;
+  bottom: 75px;
+  margin-left: 40px;
+}
+
+/*Estilos del contenedor Calendario*/
+
+.contenedor-calendario {
+  display: flex;
+  position: relative;
+  bottom: 45px;
+  margin-left: 15px;
+}
+
+.contenedor-calendario img{
+  width: 25px;
+  height: 18px;
+  flex-shrink: 0;
+  transform: rotate(15deg) ;
+}
+
+.contenedor-calendario h2{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal; 
+  font-weight: 800;
+  line-height: 110%; 
+  position: relative;
+  bottom: 10px;
+}
+
+/*Estilos para el contenedor Mar*/
+
+.contenedor-mar{ 
+  width: 202px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #72CCFF;
+  background: #E9F7FF;
+  position: relative;
+  bottom: 50px;
+  margin-left: 15px;
+}
+
+.contenedor-mar p{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; 
+  margin-left: 15px;
+}
+
+.contenedor-mar .circulo1{
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 38px;
+  margin-left: 150px;
+
+}
+
+.contenedor-mar .check{
+  width: 15px;
+  height: 12px;
+  flex-shrink: 0;
+  position: relative;
+  right: 20px;
+  bottom: 46px;
+}
+
+.contenedor-mar1{
+  width: 202px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F2F2F2;
+  position: relative;
+  bottom: 40px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-mar1 h5{
+  color: #2F2F2F;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 16.5px */
+  text-align: center;
+  
 }
