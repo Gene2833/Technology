@@ -1,133 +1,6 @@
-/* Estilos para la sección del blog */
 
-body{
-  height: 10px;
-}
-.Contenedor-blog img {
-    width: 1600px;
-    height: 500px;
-    margin-left: 170px;
-    margin-top: 130px;
-    border-radius: 50px;
-  }
-  
-  .Contenedor-blog h1 {
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 110%;
-    position: relative;
-    bottom: 470px;
-    left: 40px;
-  }
-  
-  .Contenedor-blog p {
-    color: #ffffff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 145.5%;
-    position: relative;
-    bottom: 450px;
-    margin-left: 110px;
-  }
-  
-  /* Estilos para el contenedor de columnas */
-  .Container-Column {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    width: 1050px;
-    height: 1050px;
-    margin-left: 230px;
-    margin-top: 150px;
-  }
-  
-  .Column1 {
-    margin: 15px;
-  }
-  
-  .Column1 img {
-    width: 434px;
-    height: 370px;
-    border-radius: 20px;
-  }
-  
-  /* Estilos para los botones */
-  .Column1 .boton1,
-  .Column1 .boton2 {
-    color: #2F2F2F;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: normal;
-    display: flex;
-    padding: 14px 35px 15px 35px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 24px;
-    background: #F6F6F6;
-    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.25);
-    width: 150px;
-  }
-  
-  .Column1 .boton1 {
-    position: relative;
-    bottom: 100px;
-    margin-left: 20px;
-  }
-  
-  .Column1 .boton2 {
-    position: relative;
-    bottom: 180px;
-    margin-left: 180px;
-  }
-  
-  /* Estilos para los párrafos y encabezados */
-  .Column1 .parrafo,
-  .Column1 .parrafo1,
-  .Column1 h2,
-  .Column1 p,
-  .Column1 h6 {
-    color: #808080;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 150%;
-  }
-  
-  .Column1 .parrafo {
-    position: relative;
-    bottom: 150px;
-  }
-  
-  .Column1 .parrafo1 {
-    position: relative;
-    left: 290px;
-    bottom: 200px;
-  }
-  
-  .Column1 .barrita1 {
-    width: 434px;
-    height: 1px;
-    background: #DCDCDC;
-    position: relative;
-    bottom: 150px;
-  }
-  
-  .Column1 h2,
-  .Column1 p,
-  .Column1 h6 {
-    position: relative;
-    bottom: 150px;
-  }
-  
-  /* Estilos para la sección de contenedor de color */
-  .contenedor-color img {
+
+.contenedor-color img {
     width: 1450px;
     height: 600px;
     position: relative;
@@ -261,11 +134,14 @@ body{
 .contenedor-post{
   width: 271px;
   height: 343px;
-  transform: rotate(-15.564deg);
+  transform: rotate(1.050deg);
   flex-shrink: 0;
   border-radius: 30px;
   background: #FFF;
   box-shadow: 0px 16px 26px 0px rgba(159, 159, 159, 0.25);
+  position: relative;
+  bottom: 400px;
+  left: 180px;
 }
 
 .contenedor-post1{
@@ -451,6 +327,9 @@ body{
   border-radius: 30px;
   background: #FFF;
   box-shadow: 0px 16px 26px 0px rgba(159, 159, 159, 0.25);
+  position: relative;
+  bottom: 600px;
+  left: 820px;
 }
 
 .contenedor-colores2{
@@ -603,5 +482,68 @@ body{
   height: 33px;
   border-radius: 24px;
   background: #FFD6F3;
+  position: relative;
+  bottom: 85px;
+  margin-left: 110px;
+}
 
+.contenedor-colores2 .rosa-claro1{
+  width: 80px;
+  height: 9px; 
+  border-radius: 30px;
+  background: #E2A5D0;
+  position: relative;
+  top: 12px;
+  margin-left: 15px;
+}
+
+
+.contenedor-links{
+  width: 271px;
+  height: 203px;
+  transform: rotate(-1.564deg);
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 16px 26px 0px rgba(159, 159, 159, 0.25);
+  position: relative;
+  bottom: 380px;
+  left: 150px;
+}
+
+.contenedor-links1{
+  width: 235px;
+  height: 159px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #F0F0F0;
+  position: relative;
+  left: 15px;
+  top: 23px;
+}
+
+.contenedor-links1 h1{
+  color: #5956E9;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.contenedor-links1 .link-1{
+  width: 250px;
+  height: 80px;
+  transform: rotate(14deg);
+  flex-shrink: 0;
+}
+
+.contenedor-links1 .link-2{
+  width: 250px;
+  height: 80px;
+  transform: rotate(14deg);
+  flex-shrink: 0;
+  position: relative;
+  bottom: 30px;
 }
